@@ -1,0 +1,103 @@
+body{
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: linear-gradient(45deg, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+.hero {
+    /*background-image: url('assets/hero.jpg');*/
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+
+
+  .navbar{
+    background: linear-gradient(45deg, rgb(101, 43, 132) 30%, rgb(69, 14, 136) 50%, rgb(45, 8, 125) 100%);
+  }
+
+  .nav-link {
+    color:rgb(255, 255, 255);
+}
+  .nav-item :hover {
+      background-color:   rgb(227, 236, 238);
+      color:rgb(0, 0, 0);
+      border-radius: 12px;
+      transition: transform 0.8s ease-in-out;
+  }
+  .carousel-item {
+    transition: transform 0.8s ease-in-out;
+    height: 500px;
+  }
+
+  .carousel-item .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+  }
+  
+  .carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 2.6s;
+  }
+
+  i{
+  font-size:40px;
+  color:  rgb(45, 8, 125);
+  padding-bottom: 10px;
+  }
+
+  i:hover{
+    color:  rgb(101, 43, 132);
+    }
+
+  .start-btn-icon {
+    margin: 10px 0px 0px 0px;
+    color:  rgb(255, 255, 255);
+  }
+
+  .start-btn-icon:hover {
+    color: gold;
+  }
+
+  h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 120;
+  }
+
+  h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 120;
+  }
+
+  .start-btn{
+    background-color:rgb(45, 8, 125);
+    color:rgb(255, 255, 255);
+  }
+
+  .start-btn:hover{
+    background-color: rgb(101, 43, 132);
+    color: gold;
+  }
+
+  .divide{
+    border: 3px solid rgb(69, 14, 136);
+
+  }
+
+  .videoplayer {
+    background: linear-gradient(45deg, rgb(232, 189, 255) 30%, rgb(160, 82, 255) 50%, rgb(93, 18, 255) 100%);
+  
+  }
+  .card-header {
+    background: linear-gradient(45deg,  rgb(93, 18, 255) 35%, rgb(69, 14, 136) 100%);
+    color: rgb(255, 255, 255);
+  }
+  .card {
+    border-radius: 12px;
+    color: rgb(69, 14, 136);
+    }
+
+    footer {
+      background: linear-gradient(45deg,rgb(69, 14, 136) 40%, rgb(45, 8, 125));
+    }
